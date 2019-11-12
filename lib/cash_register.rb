@@ -1,11 +1,11 @@
 class CashRegister
   
-  attr_accessor :total, :employee_discount
+  attr_accessor :total, :discount
   
-  def initialize
+  def initialize(discount)
     
     @total = 0
-    discount
+    @discount = discount
     
   end
     
