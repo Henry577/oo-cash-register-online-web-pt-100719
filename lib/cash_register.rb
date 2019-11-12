@@ -5,7 +5,7 @@ class CashRegister
   def initialization(employee_discount = 0)
     
     @total = 0
-    @employee employee_discount = 0
+    @employee = employee_discount
   end
     
 end
