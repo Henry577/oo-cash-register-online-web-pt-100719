@@ -15,6 +15,8 @@ class CashRegister
     
     @@items[title] = price
     
+    @total += price
+    
   end
     
 end
