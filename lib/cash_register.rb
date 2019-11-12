@@ -11,7 +11,7 @@ class CashRegister
     
   end
   
-  def add_item(title = "unknown", price = 0)
+  def add_item(title = "unknown", price = 0.0)
     
     @@items[title] = price
     
