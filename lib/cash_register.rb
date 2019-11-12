@@ -7,7 +7,7 @@ class CashRegister
     @total = 0.0
     @discount = discount
     @items = []
-    @items_prices = {}
+    @item_prices = {}
     
   end
   
