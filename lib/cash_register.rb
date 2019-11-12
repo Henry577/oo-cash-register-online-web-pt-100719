@@ -19,7 +19,9 @@ class CashRegister
   end
   
   def apply_discount
-  
+    
+    (100 - @discount)/10
+    
   end
     
 end
