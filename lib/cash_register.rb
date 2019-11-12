@@ -6,6 +6,7 @@ class CashRegister
     
     @total = 0
     @employee_discount = employee_discount
+    
   end
     
 end
