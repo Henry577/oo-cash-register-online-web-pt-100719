@@ -2,10 +2,10 @@ class CashRegister
   
   attr_accessor : total
   
-  def initialization(total)
+  def initialization(employee_discount = 0)
     
-    @total = total
-    
+    @total = 0
+    @employee discount = 0
   end
     
 end
