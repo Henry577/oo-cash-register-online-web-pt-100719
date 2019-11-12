@@ -14,7 +14,7 @@ class CashRegister
   def add_item(title = "unknown", price = 0.0, quantity = 1)
     
     temporary = title * quantity
-    items << temporary
+    items << temporary.split
     @item_prices[title] = price * quantity
     
     @total += price * quantity
