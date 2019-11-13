@@ -46,6 +46,7 @@ class CashRegister
   
   def void_last_transaction
     
-    
+    @total -= @item_prices[@items.last]
+    @item_prices[@items.last] = "void"
     
 end
