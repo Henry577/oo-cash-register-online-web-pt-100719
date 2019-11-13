@@ -49,4 +49,6 @@ class CashRegister
     @total -= @item_prices[@items.last]
     @item_prices[@items.last] = "void"
     
+  end
+    
 end
